@@ -6,11 +6,13 @@ import AlfBoardMembers from "./AboutOurTeam";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from "../../images/AlfJourney/Team1.JPG";
-import img2 from "../../images/AlfJourney/Team2.JPG";
-import img3 from "../../images/AlfJourney/Team3.JPG";
-import img4 from "../../images/AlfJourney/Team4.JPG";
-import img5 from "../../images/AlfJourney/Team5.JPG";
+
+import img1 from  "../../images/AboutUsImages/Team1";
+import img2 from  "../../images/AboutUsImages/Team2";
+import img3 from  "../../images/AboutUsImages/Team3";
+import img4 from "../../images/AboutUsImages/Team4";
+import img5 from "../../images/AboutUsImages/Team5";
+
 
 const About = () => {
   const sliderSettings = {
@@ -29,11 +31,11 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center" data-aos="fade-up">
             <Slider {...sliderSettings} className="rounded-2xl flex justify-center w-full max-w-md mb-4">
               {[
-                { id: 1, src: img1, alt: 'Team 1' },
-                { id: 2, src: img2, alt: 'Team 2' },
-                { id: 3, src: img3, alt: 'Team 3' },
-                { id: 4, src: img4, alt: 'Team 4' },
-                { id: 5, src: img5, alt: 'Team 5' },
+                { id: 1, src: img1, alt: 'Team1' },
+                { id: 2, src: img2, alt: 'Team2' },
+                { id: 3, src: img3, alt: 'Team3' },
+                { id: 4, src: img4, alt: 'Team4' },
+                { id: 5, src: img5, alt: 'Team5' },
               ].map((image) => (
                 <div key={image.id} className="relative overflow-hidden rounded-2xl">
                   <img src={image.src} alt={image.alt} className="object-cover w-full h-full" />
