@@ -7,11 +7,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import img1 from  "../../images/AboutUsImages/Team1";
-import img2 from  "../../images/AboutUsImages/Team2";
-import img3 from  "../../images/AboutUsImages/Team3";
-import img4 from "../../images/AboutUsImages/Team4";
-import img5 from "../../images/AboutUsImages/Team5";
+import img1 from  "../../images/AboutUsImages/Team1.JPG";
+import img2 from  "../../images/AboutUsImages/Team2.JPG";
+import img3 from  "../../images/AboutUsImages/Team3.JPG";
+import img4 from "../../images/AboutUsImages/Team4.JPG";
+import img5 from "../../images/AboutUsImages/Team5.JPG";
 
 
 const About = () => {
