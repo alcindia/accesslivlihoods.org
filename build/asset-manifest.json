@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebe5b739.css",
+    "main.js": "/static/js/main.d7a735f0.js",
+    "static/js/592.e6033cc6.chunk.js": "/static/js/592.e6033cc6.chunk.js",
+    "static/media/Team3.JPG": "/static/media/Team3.1c909961247f2b77f870.JPG",
+    "static/media/Team1.JPG": "/static/media/Team1.bd7f52254437770a1a3b.JPG",
+    "static/media/Team4.JPG": "/static/media/Team4.2268fbd7b21b47c1c71f.JPG",
+    "static/media/Team5.JPG": "/static/media/Team5.f5719620fea74e07f6c2.JPG",
+    "static/media/Team2.JPG": "/static/media/Team2.0ee715b8df9519a0cd4e.JPG",
+    "static/media/PartnerSales.png": "/static/media/PartnerSales.7f9b55622ad35d10094f.png",
+    "static/media/BeehiveModel.png": "/static/media/BeehiveModel.143371ffa6609c14c9ab.png",
+    "static/media/ReimagineLearning.jpg": "/static/media/ReimagineLearning.95c77594c2866b8acfc2.jpg",
+    "static/media/Partner_Gov.png": "/static/media/Partner_Gov.d628de3995287c1984dc.png",
+    "static/media/ReimagineFinance.jpg": "/static/media/ReimagineFinance.abf80523e1e83899901b.jpg",
+    "static/media/Shaping Livelihoods.jpg": "/static/media/Shaping Livelihoods.ed59259d3f34acb17042.jpg",
+    "static/media/AccessLivelihoodsLogo.svg": "/static/media/AccessLivelihoodsLogo.64a89039e07ed9ddc4e476efa20fba37.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.ebe5b739.css.map": "/static/css/main.ebe5b739.css.map",
+    "main.d7a735f0.js.map": "/static/js/main.d7a735f0.js.map",
+    "592.e6033cc6.chunk.js.map": "/static/js/592.e6033cc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebe5b739.css",
+    "static/js/main.d7a735f0.js"
+  ]
+}
