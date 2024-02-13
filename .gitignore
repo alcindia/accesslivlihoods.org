@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 git remote -vnode_modules
+=======
+node_modules
+>>>>>>> b63637f (added photos in -about us)
 node_modules
