@@ -7,8 +7,8 @@ function OurApproach() {
       <h1 className="m-8 text-center font-extrabold text-4xl md:text-5xl lg:text-6xl font-serif text-orange-600">
         Our Approach
       </h1>
-      <div className="flex flex-col md:flex-row m-4 md:m-12 text-justify text-rose-950">
-        <p className="font-serif font-medium text-lg md:text-2xl lg:text-3xl md:w-1/2">
+      <div className="flex flex-col md:flex-row m-4 md:m-12 text-justify text-teal-950">
+        <p className="font-sans font-medium text-lg md:text-medium lg:text-xl md:w-1/2">
           A complex and large sector, the livelihoods domain involves diverse
           communities, geographies, and players. It is thus not possible to
           have a single solution that smoothly functions in diverse contexts. In

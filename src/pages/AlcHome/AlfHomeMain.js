@@ -14,7 +14,7 @@ const AlfHome = () => {
       <div className="overflow-hidden mx-4  lg:mt-4 p-2 md:p-12 h-fit" data-aos="zoom-in">
         <div className="lg:w-fit md:w-fit justify-center" data-aos="zoom-in" data-aos-delay="50">
           <h6 className="md:text-2xl text-3xl font-bold text-blue-900">Reimagine Livelihoods</h6>
-          <div className="m-4 text-xl text-justify text-teal-900 font-semibold tracking-tight">
+          <div className="m-4 text-xl font-sans text-justify text-teal-900 font-medium tracking-tight">
             <p>
               We established Access Livelihoods in "2005" in our quest to find effective ways to solve the persistent problems faced in the livelihoods of economically marginalized communities. Our work across 26 states in India over the last seventeen years has helped us create and test new livelihood models that transform producers' lives and usher greater self-reliance. Through our Beehive model for building producer enterprises, we presently partner over 75,000 farmers, weavers and tribal farmers in building 68 producer companies in five states of India. We also work at the macro level, with innovative platforms that seek to shape the livelihood environment.
             </p>

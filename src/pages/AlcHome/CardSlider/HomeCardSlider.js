@@ -7,7 +7,7 @@ import ProfileCard from './HomeCard';
 
 const profiles = [
   {
-    name: 'Access Livelihoods (AL)',
+    name: 'Access Livelihoods',
     description:
       'Access Livelihoods (AL) is a group of Hyderabad-based social enterprises that work with marginalized communities to reimagine their livelihoods. Established in 2005, AL is an AIM-NITI Aayog recognized Established Incubation Centre, primarily working on incubating women-owned producer enterprises across primary sectors to create equitable and lasting livelihood opportunities',
     image:
@@ -15,7 +15,7 @@ const profiles = [
   },
   {
     name: 'Access Livelihoods',
-    description: 'Learning and Sharing',
+    description: " 'Learning and Sharing' - Access Livelihoods (AL) is a group of Hyderabad-based social enterprises that work with marginalized communities to reimagine their livelihoods. Established in 2005, AL is an AIM-NITI Aayog recognized Established Incubation Centre, primarily working on incubating women-owned producer enterprises across primary sectors to create equitable and lasting livelihood opportunities",
     image:
       'https://media.licdn.com/dms/image/D5622AQEDB4NZG2wm7g/feedshare-shrink_2048_1536/0/1695201736826?e=1709769600&v=beta&t=gLVDwO0kGT0iKY364jnEp-0SBvZ-IXj6jwshTRYl_kg',
   },
@@ -37,7 +37,9 @@ const ProfileSlider = () => {
     <Slider {...settings} className="w-full max-w-screen-lg mx-auto">
       {profiles.map((profile, index) => (
         <div key={index} className="outline-none focus:outline-none">
+          
           <ProfileCard {...profile} />
+          
         </div>
       ))}
     </Slider>

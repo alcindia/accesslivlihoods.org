@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-amber-50  py-4 p-2 rounded-e-4xl sticky top-0 z-200">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="flex mx-auto  justify-between items-center">
         <Link to="/" className="text-orange-900 text-lg text-pretty  font-medium">
        
           <img className='h-full w-1/2 object-contain m-0 '
@@ -22,6 +22,7 @@ const Navbar = () => {
       
           
         </Link>
+        
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
@@ -43,8 +44,8 @@ const Navbar = () => {
             </svg>
           </button>
           {menuOpen && (
-            <div className="absolute top-16 right-0 text-orange-900 bg-amber-50  p-8 space-y-2">
-               <div className="group relative inline-block">
+            <div className="absolute  top-16 right-0 text-orange-900 bg-amber-50  p-8 space-y-2">
+               <div className="group relative ">
               <Link to="/About" onClick={toggleMenu}>
               About Us
               </Link>
@@ -71,7 +72,7 @@ const Navbar = () => {
               {/* Add more submenu items as needed */}
             </ul>
               </div>
-              <div className="group relative inline-block">
+              <div className="group relative ">
               <Link to="/Resources" onClick={toggleMenu}>
               Resources
               </Link>
@@ -94,7 +95,7 @@ const Navbar = () => {
             </ul>
               </div>
 
-              <div className="group relative inline-block">
+              <div className="group relative ">
               <Link to="/Models" onClick={toggleMenu}>
               Models
               </Link>
@@ -118,18 +119,26 @@ const Navbar = () => {
               {/* Add more submenu items as needed */}
             </ul>
               </div>
+              <div>
               <Link to="/Innovations" onClick={toggleMenu}>
               Innovations
               </Link>
+              </div>
+              <div>
               <Link to="https://www.alcindia.org/careers/" onClick={toggleMenu}>
               Work With Us
               </Link>
+              </div>
+              <div>
               <Link to="/Donate" onClick={toggleMenu}>
               Donate
               </Link>
+              </div>
+              <div>
               <Link to="/Contact" onClick={toggleMenu}>
               Contact Us
               </Link>
+              </div>
               
             </div>
           )}

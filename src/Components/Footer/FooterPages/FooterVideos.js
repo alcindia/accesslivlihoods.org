@@ -3,7 +3,7 @@ import React from "react";
 const YoutubeEmbed = () => (
   <div className="flex flex-wrap justify-center">
     {/* YouTube Content */}
-    <div className="h-svh m-4 sm:m-12 py-12 border-solid border-2 border-gray-100 w-full sm:w-1/2 lg:w-1/2 xl:w-1/3 video-responsive">
+    <div className="flex-inline float-start  h-svh ml-0 sm:m-12 py-10  w-full sm:w-1/2 lg:w-1/2 xl:w-1/3 video-responsive">
       <iframe
         width="100%"
         height="100%"
@@ -15,25 +15,26 @@ const YoutubeEmbed = () => (
     </div>
 
     {/* Blog Card */}
-    <div className="m-4 sm:m-12 py-12 w-full sm:w-1/2 lg:w-1/2 xl:w-1/3">
-      <div className="bg-white p-6 rounded-md shadow-md">
+    <div className="flex-inline float-right h-svh mr-0 sm:m-12 py-10 w-[60] sm:w-1/2 lg:w-1/2 xl:w-1/3">
+      
       
         <iframe
           src="https://www.linkedin.com/embed/feed/update/urn:li:share:7159069369522622465"
-          height="400"
-          width="504"
+          height="100%"
+          width="125%"
           // frameBorder="0"
-          allowFullScreen=""
-          title="Embedded post"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          title="LinkedIn Posts"
         ></iframe>
-        <a
-          href="https://www.linkedin.com/company/access-livelihoods/about/"
-          className="text-blue-500 mt-4 inline-block hover:underline"
-        >
-          Read more
-        </a>
+        <button className="text-blue-500 mt-4 inline-block hover:underline" href="https://www.linkedin.com/company/access-livelihoods/about/" >
+        Read more
+
+        </button>
+       
       </div>
-    </div>
+    
+    
   </div>
 );
 
